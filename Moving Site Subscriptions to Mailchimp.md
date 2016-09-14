@@ -28,11 +28,11 @@ See also [How to Switch from JetPack Subscription to MailChimp](http://www.wpbeg
  - On the left nav, under "Mailchimp for WP," click "Forms."
  - Give the form a name.
  - Check the box next the list this form will submit to.
-1. In mailchimp:
- - Create an RSS campaign
- - enter the address of your site’s RSS feed
- - set the schedule—when should the campaign send emails?
- - For the campaign’s recipients, identify the list...
+ - Click the "Add new form" button.
+ - Copy the short code from this page to embed this form into your WordPress pages.
+ - Click "Save Changes."
+1. In Mailchimp:
+ - [Create an RSS campaign](http://kb.mailchimp.com/campaigns/rss-in-campaigns/create-an-rss-campaign). In the Recipients Step, select the liast you created above.
 
 **Notes**
  - jetpack sends an email to subscribers as soon as the new post is published. Mailchimp will on a predetermined schedule, no more than once per day
