@@ -24,9 +24,10 @@ See also [How to Switch from JetPack Subscription to MailChimp](http://www.wpbeg
  - Go to your Site Dashboard
  - In the left nav, click "Mailchimp for WP."
  - Paste your API Key into the appropriate field and click “Save Changes."
+1. Create a new subscription form to add to your WordPress site.
  - On the left nav, under "Mailchimp for WP," click "Forms."
- - Click the Settings tab.
- - Select the Mailchimp lists to which this form should add users by checking the appropriate box(es) on the "Lists this form subscribes to” list.
+ - Give the form a name.
+ - Check the box next the list this form will submit to.
 1. In mailchimp:
  - Create an RSS campaign
  - enter the address of your site’s RSS feed
