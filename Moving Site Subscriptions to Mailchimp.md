@@ -39,4 +39,4 @@ Some sites are using Jetpack to allow users to subscribe to their blog. We want 
 
 ## Notes
 
- - Jetpack sends an email to subscribers as soon as the new post is published. Mailchimp will on a user-defined schedule, no more than once per day.
+ - Jetpack sends an email to subscribers as soon as the new post is published. Mailchimp will send on a user-defined schedule, no more than once per day.
