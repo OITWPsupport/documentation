@@ -37,6 +37,6 @@ Some sites are using Jetpack to allow users to subscribe to their blog. We want 
 1. In Mailchimp:
  - [Create an RSS campaign](http://kb.mailchimp.com/campaigns/rss-in-campaigns/create-an-rss-campaign). In the Recipients Step, select the list you created above.
 
-##Notes##
+## Notes
 
  - Jetpack sends an email to subscribers as soon as the new post is published. Mailchimp will on a user-defined schedule, no more than once per day.
