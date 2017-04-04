@@ -1,5 +1,4 @@
-#Switching a WordPress Site From Jetpack-Based Subscriptions to Mailchimp
-
+# Switching a WordPress Site From Jetpack-Based Subscriptions to Mailchimp
 Some sites are using Jetpack to allow users to subscribe to their blog. We want to discontinue use of Jetpack, so we need to help those sites move to Mailchimp to handle their blog subscriptions.
 
 1. Export your existing Jetpack subscriber list(s).  
