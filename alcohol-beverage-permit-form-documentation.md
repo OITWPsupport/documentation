@@ -10,11 +10,11 @@ The form lives on the secureforms.boisestate.edu WordPress site. It is public fa
 At each stage the approval workflow, one or more users will receive an email notifying them that the form requires their review and action. That email contains a link to a page that displays pending requests, sorted by date submitted (descending).
 
 Each user in the workflow can take the following actions:
-* Approve the request and send it to its next step.
-* Reject the request. This requires that the user add a note explaining the rejection. This completes the workflow and notifies the form submitter.
-* Cancel the workflow. Changes the request status to “Cancelled.” No further notification takes place to any workflow users nor to the form submitter.
-* Restart the workflow. This requests approval from all workflow users, whether they’ve acted on this request already or not, starting with the Aramark Catering Manager.
-* Send the request to any step in the workflow. The request can still progress all the way to approval. The workflow timeline will show all workflow steps that were approved (implying any that were skipped).
+* **Approve** Approving the request sends it to the next step in the workflow.
+* **Reject** Rejecting the request requires that the workflow user add a note explaining the rejection. This completes the workflow and notifies the form submitter. No one else in the workflow is notified.
+* **Cancel Workflow** This changes the request status to “Cancelled.” No one else in the workflow is notified. The form submitter is not notified.
+* **Restart Workflow** This requests approval from all workflow users, whether they’ve acted on this request already or not, starting with the Aramark Catering Manager.
+* **Send to Step [workflow step]** This sends the request to any step in the workflow. The request can still progress all the way to approval. The workflow timeline will show all workflow steps that were approved (implying any that were skipped).
 
 ### Approval Step 1 (Workflow Step #1: Aramark Catering)
 ### Approval Step 2 (Workflow Step #2: Aramark Contract Manager)
