@@ -14,7 +14,7 @@ Each user in the workflow can take the following actions:
 * **Approve** Approving the request sends it to the next step in the workflow.
 * **Reject** Rejecting the request requires that the workflow user add a note explaining the rejection. This completes the workflow and notifies the form submitter. No one else in the workflow is notified.
 * **Cancel Workflow** This changes the request status to “Cancelled.” No one else in the workflow is notified. The form submitter is not notified.
-* **Restart Workflow** This requests approval from all workflow users, whether they’ve acted on this request already or not, starting with the Aramark Catering Manager.
+* **Restart Workflow** This requests approval from all workflow users, whether they’ve approved this request already or not, starting with the Aramark Catering Manager.
 * **Send to Step [workflow step]** This sends the request to any step in the workflow. The request can still progress all the way to approval. The workflow timeline will show all workflow steps that were approved (implying any that were skipped).
 
 ### Workflow Sequence
