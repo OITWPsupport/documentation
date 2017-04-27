@@ -23,6 +23,7 @@ Each user in the workflow can take the following actions:
 3. Workflow Step #3: **Chief Operating Officer**
 4. Workflow Step #4: **General Counsel**
 5. Workflow Step #5: **President's Office** The notification email for this step includes an attached PDF summarizing the form submission and providing a space for the president’s signature. 
+6. Workflow Step #6: **State Board of Education**
 
 ## Administration
 The administrator of the application (Executive Assistant, Office of COO) has access to maintain the workflow and designate approvers at each step by adding and removing assignees. The administrator can also edit the text of the emails received by workflow users and form submitters.
