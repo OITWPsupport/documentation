@@ -16,7 +16,7 @@ Each user in the workflow can take the following actions:
 * **Restart Workflow** This requests approval from all workflow users, whether they’ve acted on this request already or not, starting with the Aramark Catering Manager.
 * **Send to Step [workflow step]** This sends the request to any step in the workflow. The request can still progress all the way to approval. The workflow timeline will show all workflow steps that were approved (implying any that were skipped).
 
-### Approval Step 1 (Workflow Step #1: Aramark Catering)
+### Approval Step 1 (Workflow Step #1: Aramark Catering Manager)
 ### Approval Step 2 (Workflow Step #2: Aramark Contract Manager)
 ### Approval Step 3 (Workflow Step #3: Chief Operating Officer)
 ### Approval Step 4 (Workflow Step #4: General Counsel)
