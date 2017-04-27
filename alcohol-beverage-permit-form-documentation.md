@@ -18,11 +18,11 @@ Each user in the workflow can take the following actions:
 * **Send to Step [workflow step]** This sends the request to any step in the workflow. The request can still progress all the way to final  approval. The workflow timeline will show all workflow steps that were approved (implying any that were skipped).
 
 ### Workflow Sequence
-1. Approval Step 1 (Workflow Step #1: Aramark Catering Manager) 
-2. Approval Step 2 (Workflow Step #2: Aramark Contract Manager)
-3. Approval Step 3 (Workflow Step #3: Chief Operating Officer)
-4. Approval Step 4 (Workflow Step #4: General Counsel)
-5. Approval Step 5 (Workflow Step #5: President's Office) The notification email for this step includes an attached PDF summarizing the form submission and providing a space for the president’s signature. 
+1. Workflow Step #1: **Aramark Catering Manager**
+2. Workflow Step #2: **Aramark Contract Manager**
+3. Workflow Step #3: **Chief Operating Officer**
+4. Workflow Step #4: **General Counsel**
+5. Workflow Step #5: **President's Office** The notification email for this step includes an attached PDF summarizing the form submission and providing a space for the president’s signature. 
 
 ## Administration
 The administrator of the application (Executive Assistant, Office of COO) has access to maintain the workflow and designate approvers at each step by adding and removing assignees. The administrator can also edit the text of the emails received by workflow users and form submitters.
