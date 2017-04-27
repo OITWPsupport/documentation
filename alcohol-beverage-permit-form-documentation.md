@@ -6,7 +6,7 @@ This form allows users to request permission from the university to hold an on-c
 ## Submitting the Form
 The form lives on the secureforms.boisestate.edu WordPress site. It is public facing and can be submitted by any unauthenticated user on or off campus. When the form is submitted, the submitter receives an email notification, and a workflow (executed by the Gravity Flow WordPress plugin) begins.
 
-## Approval Steps
+## Workflow Approval Steps
 At each stage the approval workflow, one or more users will receive an email notifying them that the form requires their review and action. That email contains a link to the Gravity Flow status page, which will display pending requests, sorted by date submitted (descending).
 
 Each user in the workflow can take the following actions:
