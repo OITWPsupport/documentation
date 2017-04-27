@@ -1,7 +1,7 @@
 # Alcohol Beverage Permit Form Documentation
 
 ## Overview 
-This form allows users to request permission from the university to hold an on-campus event at which alcohol is server. This request requires approval by several offices on campus, and finally by the State Board of Education.
+This form allows users to request permission from the university to hold an on-campus event at which alcohol is served. This request requires approval by several offices on campus, and finally by the State Board of Education.
 
 ## Submitting the Form
 The form lives on the secureforms.boisestate.edu WordPress site. It is public facing and can be submitted by any unauthenticated user on or off campus. When the form is submitted, the submitter receives an email notification, and a workflow (executed by the Gravity Flow WordPress plugin) begins.
