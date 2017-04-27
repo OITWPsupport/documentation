@@ -9,6 +9,7 @@ The form lives on the secureforms.boisestate.edu WordPress site. It is public fa
 ## Workflow Approval Steps
 At each stage of the approval workflow, one or more users will receive an email notifying them that the form requires their review and action. That email contains a link to a page that displays pending requests, sorted by date submitted (descending).
 
+### Workflow Actions
 Each user in the workflow can take the following actions:
 * **Approve** Approving the request sends it to the next step in the workflow.
 * **Reject** Rejecting the request requires that the workflow user add a note explaining the rejection. This completes the workflow and notifies the form submitter. No one else in the workflow is notified.
@@ -16,6 +17,7 @@ Each user in the workflow can take the following actions:
 * **Restart Workflow** This requests approval from all workflow users, whether they’ve acted on this request already or not, starting with the Aramark Catering Manager.
 * **Send to Step [workflow step]** This sends the request to any step in the workflow. The request can still progress all the way to approval. The workflow timeline will show all workflow steps that were approved (implying any that were skipped).
 
+### Workflow Sequence
 1. Approval Step 1 (Workflow Step #1: Aramark Catering Manager) 
 2. Approval Step 2 (Workflow Step #2: Aramark Contract Manager)
 3. Approval Step 3 (Workflow Step #3: Chief Operating Officer)
