@@ -18,8 +18,37 @@ Follow these steps to create and configure a new Woocommerce site.
 Create a new site or subsite via our standard procedures. (See Setting Up New Sites and Subsites.)
 ## Themes and Plugins
 
-Install and activate the WooCommerce Storefront theme.
-Install and activate the Customizer Export/Import plugin.
-Install and activate the Boise State Woocommerce Breadcrumb Fix plugin.
-Install and activate the Scripts-n-Styles plugin.
-Optionally install and activate the Disable WooCommerce Reviews plugin.
+1. Install and activate the WooCommerce Storefront theme.
+1. Install and activate the Customizer Export/Import plugin.
+1. Install and activate the Boise State Woocommerce Breadcrumb Fix plugin.
+1. Install and activate the Scripts-n-Styles plugin.
+1. Optionally install and activate the Disable WooCommerce Reviews plugin.
+
+## Storefront Customizations
+
+The Storefront theme's default colors and typefaces don't match the university standard, so we need to customize the theme.
+Download the storefront-export.dat file. (File is stored on Google Drive, and has been shared with WP Support group and Shad Jessen.) Import it into the new Woocommerce site (Appearance -> Customize -> Export/Import).
+Paste the following CSS into the Additional CSS form (Appearance -> Customize -> Additional CSS):
+
+```css
+	body {
+		font-family: "Helvetica Neue", sand-serif;	
+	}
+
+	.product_title  {
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.woocommerce-products-header__title {
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.related {
+		font-family: 'Montserrat', sans-serif;
+	}
+```
+1. Create a Scripts-n-Styles hoop to include the necessary external stylesheet for the Google font:
+Click Tools > Scripts n Styles, the click the Hoops tab.
+Add a new Hoop named "add_googlefonts" with the following content:
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+Edit the Woocommerce shop page (see Woocommerce > Settings > Products > Display). Paste the following shortcode at the top of the page: ```[hoops name="add_googlefonts"]```
