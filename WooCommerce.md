@@ -58,7 +58,7 @@ Edit the Woocommerce shop page (see Woocommerce > Settings > Products > Display)
 If the site offers free items, you can hide the price-related page elements described below by adding the CSS code from the example into the Additional CSS form (Appearance -> Customize -> Additional CSS).
 
 
-To hide a product's price from the product info page:
+**To hide a product's price from the product info page:**
 
 ![alt text](https://github.com/OITWPsupport/documentation/blob/master/images/screenshot1.png "On-screen location of price info to be hidden.")
 ```css
@@ -68,7 +68,7 @@ To hide a product's price from the product info page:
 ```
 ---
 
-To hide the dollar amount in the top-right shopping cart summary:
+**To hide the dollar amount in the top-right shopping cart summary:**
 
 ![alt text](https://github.com/OITWPsupport/documentation/blob/master/images/screenshot2.png "On-screen location of shopping cart summary to be hidden.")
 ```css
@@ -78,7 +78,7 @@ To hide the dollar amount in the top-right shopping cart summary:
 ```
 ---
 
-To hide price-related elements from the checkout page:
+**To hide price-related elements from the checkout page:**
 
 ![alt text](https://github.com/OITWPsupport/documentation/blob/master/images/screenshot3.png "On-screen location of price elements to be hidden.")
 ```css
