@@ -57,6 +57,7 @@ Edit the Woocommerce shop page (see Woocommerce > Settings > Products > Display)
 
 If the site offers free items, you can hide the price-related page elements described below by adding the CSS code from the example into the Additional CSS form (Appearance -> Customize -> Additional CSS).
 
+
 To hide a product's price from the product info page:
 
 ![alt text](https://github.com/OITWPsupport/documentation/blob/master/images/screenshot1.png "On-screen location of price info to be hidden.")
@@ -65,6 +66,8 @@ To hide a product's price from the product info page:
     display: none !important;
 }
 ```
+---
+
 To hide the dollar amount in the top-right shopping cart summary:
 
 ![alt text](https://github.com/OITWPsupport/documentation/blob/master/images/screenshot2.png "On-screen location of shopping cart summary to be hidden.")
@@ -73,6 +76,7 @@ To hide the dollar amount in the top-right shopping cart summary:
     display: none !important;
 }
 ```
+---
 
 To hide price-related elements from the checkout page:
 
@@ -102,9 +106,9 @@ To hide price-related elements from the checkout page:
 ## Inventory
 
 There are a couple ways you can add inventory to your new Woocommerce site.
-+ **Add items manually.** [WooCommerce documentation] (https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/setup-products/) provides guidance on this process.
++ **Add items manually.** [WooCommerce documentation](https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/setup-products/) provides guidance on this process.
 + **Import items from a legacy shopping cart.**
-1. On the new site, install the [WP All Import plugin] (https://wordpress.org/plugins/wp-all-import/) and the [WP All Import Woocommerce Add-On plugin]. (https://wordpress.org/plugins/woocommerce-xml-csv-product-import/)
+1. On the new site, install the [WP All Import plugin](https://wordpress.org/plugins/wp-all-import/) and the [WP All Import Woocommerce Add-On plugin]. (https://wordpress.org/plugins/woocommerce-xml-csv-product-import/)
 1. Export inventory from the legacy site into a CSV file. The process for doing this will vary depending on the legacy shopping cart software. It will likely require some custom scripting or development. (PHP is one way to do this. Attached is a PHP script that was used to export inventory from an OpenCart site’s database and format it as a CSV.)
 1. Use the WordPress Media Uploader to add any images referenced by the CSV file. It's important to do this before importing the CSV data.
 1. Import the CSV data using the WP All Import plugin.
