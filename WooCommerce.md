@@ -27,7 +27,7 @@ Create a new site or subsite via our standard procedures. (See [Setting Up New S
 ## Storefront Customizations
 
 The Storefront theme's default colors and typefaces don't match the university standard, so we need to customize the theme.
-1. Download the [storefront-export.dat](https://drive.google.com/file/d/0B-gU-pxuqWpqNnA4ZmVJQmRxWXM/view) file. (File is stored on Google Drive, and has been shared with WP Support group.) Import it into the new Woocommerce site (Appearance -> Customize -> Export/Import).
+1. Download the [storefront-export.dat](https://drive.google.com/file/d/0B-gU-pxuqWpqNnA4ZmVJQmRxWXM/view) file. (File is stored on Google Drive, and has been shared with the WP Support group.) Import it into the new Woocommerce site (Appearance -> Customize -> Export/Import).
 1. Paste the following CSS into the Additional CSS form (Appearance -> Customize -> Additional CSS):
 
 ```css
