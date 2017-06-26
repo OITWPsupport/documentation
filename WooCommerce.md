@@ -15,7 +15,7 @@ In several cases on campus, Woocommerce is useful without a payment gateway; it 
 Follow these steps to create and configure a new Woocommerce site.
  ## Site Creation
 
-Create a new site or subsite via our standard procedures. See [Setting Up New Sites and Subsites] (https://sites.google.com/a/boisestate.edu/wordpress-support/setting-up-new-sites-and-subsites).
+Create a new site or subsite via our standard procedures. (See [Setting Up New Sites and Subsites](https://sites.google.com/a/boisestate.edu/wordpress-support/setting-up-new-sites-and-subsites).)
 ## Themes and Plugins
 
 1. Install and activate the WooCommerce Storefront theme.
