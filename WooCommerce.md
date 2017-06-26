@@ -110,6 +110,6 @@ There are a couple ways you can add inventory to your new Woocommerce site.
 + **Import items from a legacy shopping cart.**
 
    1. On the new site, install the [WP All Import plugin](https://wordpress.org/plugins/wp-all-import/) and the [WP All Import Woocommerce Add-On plugin](https://wordpress.org/plugins/woocommerce-xml-csv-product-import/).
-   1. Export inventory from the legacy site into a CSV file. The process for doing this will vary depending on the legacy shopping cart software. It will likely require some custom scripting or development. (PHP is one way to do this. Attached is a PHP script that was used to export inventory from an OpenCart site’s database and format it as a CSV.)
+   1. Export inventory from the legacy site into a CSV file. The process for doing this will vary depending on the legacy shopping cart software. It will likely require some custom scripting or development. (PHP is one way to do this. [See this example](https://github.com/OITWPsupport/documentation/blob/master/woocommerce_import.php) of a PHP script that was used to export inventory from an OpenCart site’s database and format it as a CSV.)
    1. Use the WordPress Media Uploader to add any images referenced by the CSV file. It's important to do this before importing the CSV data.
    1. Import the CSV data using the WP All Import plugin.
