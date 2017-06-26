@@ -4,7 +4,7 @@ This document is for use by OIT's WP Support team. Creating and configuring a Wo
 
 # Description
 
-Woocommerce (woocommerce.com) is a shopping cart plugin that allows site admins to create and sell products on a WordPress site. Woocommerce is OIT’s only supported shopping cart. 
+[Woocommerce](https://woocommerce.com/) is a shopping cart plugin that allows site admins to create and sell products on a WordPress site. Woocommerce is OIT’s only supported shopping cart. 
 
 Woocommerce handles inventory and the user's shopping experience. Payment gateways, such as uPay and PayPal, process the payments. Woocommerce extensions are available to support various payment gateways. The university’s only approved payment gateway is Touchnet uPay. 
 
@@ -47,8 +47,21 @@ The Storefront theme's default colors and typefaces don't match the university s
 		font-family: 'Montserrat', sans-serif;
 	}
 ```
-1. Create a Scripts-n-Styles hoop to include the necessary external stylesheet for the Google font:
+3. Create a Scripts-n-Styles hoop to include the necessary external stylesheet for the Google font:
 Click Tools > Scripts n Styles, the click the Hoops tab.
 Add a new Hoop named "add_googlefonts" with the following content:
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+`<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">`
 Edit the Woocommerce shop page (see Woocommerce > Settings > Products > Display). Paste the following shortcode at the top of the page: `[hoops name="add_googlefonts"]`
+
+## Optional Customizations
+
+Often, Woocommerce is used to allow users to order free items. You can hide the price-related page elements described below by adding the CSS code from the example into the Additional CSS form (Appearance -> Customize -> Additional CSS).
+
+To hide a product's price from the product info page:
+
+```css
+.woocommerce-Price-amount {
+    display: none !important;
+}
+```
+![alt text](https://sites.google.com/a/boisestate.edu/wordpress-support/_/rsrc/1498249830948/woocommerce/Post_title_test_2_%E2%80%93_Idaho_RADAR_Center.png?height=141&width=200 "Image text")
