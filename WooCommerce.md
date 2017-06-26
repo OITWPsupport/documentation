@@ -48,7 +48,7 @@ The Storefront theme's default colors and typefaces don't match the university s
 	}
 ```
 3. Create a Scripts-n-Styles hoop to include the necessary external stylesheet for the Google font:
-Click Tools > Scripts n Styles, the click the Hoops tab.
+Click Tools > Scripts n Styles, then click the Hoops tab.
 Add a new Hoop named "add_googlefonts" with the following content:
 `<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">`
 Edit the Woocommerce shop page (see Woocommerce > Settings > Products > Display). Paste the following shortcode at the top of the page: `[hoops name="add_googlefonts"]`
