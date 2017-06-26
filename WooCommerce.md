@@ -55,7 +55,7 @@ Edit the Woocommerce shop page (see Woocommerce > Settings > Products > Display)
 
 ## Optional Customizations
 
-Often, Woocommerce is used to allow users to order free items. You can hide the price-related page elements described below by adding the CSS code from the example into the Additional CSS form (Appearance -> Customize -> Additional CSS).
+If the site offers free items, you can hide the price-related page elements described below by adding the CSS code from the example into the Additional CSS form (Appearance -> Customize -> Additional CSS).
 
 To hide a product's price from the product info page:
 
