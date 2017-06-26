@@ -18,11 +18,11 @@ Follow these steps to create and configure a new Woocommerce site.
 Create a new site or subsite via our standard procedures. (See [Setting Up New Sites and Subsites](https://sites.google.com/a/boisestate.edu/wordpress-support/setting-up-new-sites-and-subsites).)
 ## Themes and Plugins
 
-1. Install and activate the WooCommerce Storefront theme.
-1. Install and activate the Customizer Export/Import plugin.
-1. Install and activate the Boise State Woocommerce Breadcrumb Fix plugin.
-1. Install and activate the Scripts-n-Styles plugin.
-1. Optionally install and activate the Disable WooCommerce Reviews plugin.
+1. Install and activate the [WooCommerce Storefront theme](https://woocommerce.com/storefront/).
+1. Install and activate the [Customizer Export/Import plugin](https://wordpress.org/plugins/customizer-export-import/).
+1. Install and activate the [Boise State Woocommerce Breadcrumb Fix plugin](https://sites.google.com/a/boisestate.edu/wordpress-support/plugins/boise-state-custom-plugins/plugin-boise-state-woocommerce-breadcrumb-fix).
+1. Install and activate the [Scripts-n-Styles plugin](https://wordpress.org/plugins/scripts-n-styles/).
+1. Optionally install and activate the [Disable WooCommerce Reviews plugin](https://wordpress.org/plugins/disable-woocommerce-reviews/).
 
 ## Storefront Customizations
 
