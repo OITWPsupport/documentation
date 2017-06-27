@@ -1,8 +1,9 @@
-# Audience
+# Creating and Configuring a Woocommerce Site at Boise State
+## Audience
 
 This document is for use by OIT's WP Support team. Creating and configuring a Woocommerce site is fairly technical, so the content here isn't useful to site admins.
 
-# Description
+## Description
 
 [Woocommerce](https://woocommerce.com/) is a shopping cart plugin that allows site admins to create and sell products on a WordPress site. Woocommerce is OIT’s only supported shopping cart. 
 
@@ -10,13 +11,13 @@ Woocommerce handles inventory and the user's shopping experience. Payment gatewa
 
 In several cases on campus, Woocommerce is useful without a payment gateway; it can stand alone and serve as a shopping cart to allow users to order free items or download digital materials. (See radarcart.boisestate.edu and oshconcart.boisestate.edu.)
 
-# Creating a New WooCommerce Site
+## Creating a New WooCommerce Site
 
 Follow these steps to create and configure a new Woocommerce site.
- ## Site Creation
+ ### Site Creation
 
 Create a new site or subsite via our standard procedures. (See [Setting Up New Sites and Subsites](https://sites.google.com/a/boisestate.edu/wordpress-support/setting-up-new-sites-and-subsites).)
-## Themes and Plugins
+### Themes and Plugins
 
 1. Install and activate the [WooCommerce Storefront theme](https://woocommerce.com/storefront/).
 1. Install and activate the [Customizer Export/Import plugin](https://wordpress.org/plugins/customizer-export-import/).
@@ -24,7 +25,7 @@ Create a new site or subsite via our standard procedures. (See [Setting Up New S
 1. Install and activate the [Scripts-n-Styles plugin](https://wordpress.org/plugins/scripts-n-styles/).
 1. Optionally install and activate the [Disable WooCommerce Reviews plugin](https://wordpress.org/plugins/disable-woocommerce-reviews/).
 
-## Storefront Customizations
+### Storefront Customizations
 
 The Storefront theme's default colors and typefaces don't match the university standard, so we need to customize the theme.
 1. Download the [storefront-export.dat](https://drive.google.com/file/d/0B-gU-pxuqWpqNnA4ZmVJQmRxWXM/view) file. (File is stored on Google Drive, and has been shared with the WP Support group.) Import it into the new Woocommerce site (Appearance > Customize > Export/Import).
@@ -53,7 +54,7 @@ Add a new Hoop named "add_googlefonts" with the following content:
 `<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">`
 Edit the Woocommerce shop page (see Woocommerce > Settings > Products > Display). Paste the following shortcode at the top of the page: `[hoops name="add_googlefonts"]`
 
-## Optional Customizations
+### Optional Customizations
 
 If the site offers free items, you can hide the price-related page elements described below by adding the CSS code from the example into the Additional CSS form (Appearance > Customize > Additional CSS).
 
@@ -103,7 +104,7 @@ If the site offers free items, you can hide the price-related page elements desc
 }
 ```
 
-## Inventory
+### Inventory
 
 There are a couple ways you can add inventory to your new Woocommerce site.
 + **Add items manually.** [WooCommerce documentation](https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/setup-products/) provides guidance on this process.
